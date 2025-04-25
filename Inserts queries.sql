@@ -1,0 +1,45 @@
+INSERT INTO Companies (company_name, industry, headquarters) VALUES
+('Neutrino Robotics', 'Technology', 'Tel Aviv'),
+('MetroCore Bank', 'Finance', 'New York'),
+('Quantum Bloom Labs', 'Biotech', 'Zurich'),
+('SolarNova Energy', 'Energy', 'Berlin'),
+('HyperLoopX', 'Transportation', 'Los Angeles'),
+('EchoVerse Studios', 'Entertainment', 'London'),
+('ByteForge', 'Software', 'San Francisco'),
+('AquaPure', 'Utilities', 'Stockholm'),
+('SynthGenomics', 'Biotech', 'Basel'),
+('StellarMesh', 'Telecom', 'Tokyo'),
+('DeepMining Co.', 'Mining', 'Perth'),
+('CloudTide', 'Cloud Services', 'Dublin'),
+('NeuroLinkAI', 'AI', 'Toronto'),
+('FireGlass Security', 'Cybersecurity', 'Amsterdam'),
+('EcoCore Farming', 'Agriculture', 'Copenhagen');
+
+INSERT INTO Stocks (ticker, company_id, total_shares) VALUES
+('NTR', 1, 1000000),
+('MCR', 2, 850000),
+('QBL', 3, 900000),
+('SNE', 4, 1200000),
+('HLX', 5, 600000),
+('EVS', 6, 500000),
+('BYF', 7, 1000000),
+('AQP', 8, 400000),
+('SGM', 9, 300000),
+('STM', 10, 700000),
+('DMC', 11, 200000),
+('CLT', 12, 950000),
+('NLA', 13, 1100000),
+('FGS', 14, 650000),
+('ECF', 15, 800000);
+
+INSERT INTO Traders (trader_name, email, balance) VALUES
+('Alice', 'alice@example.com', 120000),
+('Bob', 'bob@example.com', 85000),
+('Charlie', 'charlie@example.com', 95000),
+('Diana', 'diana@example.com', 60000),
+('Eli', 'eli@example.com', 70000),
+('Fay', 'fay@example.com', 40000),
+('George', 'george@example.com', 150000),
+('Hana', 'hana@example.com', 50000),
+('Ian', 'ian@example.com', 30000),
+('Judy', 'judy@example.com', 110000);
