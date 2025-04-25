@@ -29,6 +29,10 @@ Additionally, the system uses:
 - **User-defined Functions** for data formatting and price retrieval.
 - **Views** for calculating real-time holdings dynamically.
 
+## Database Structure (ERD)
+
+![Database ERD](./EDR_diagram.png)
+
 ## Technologies Used
 
 - **MySQL 8.0+**
